@@ -1,0 +1,40 @@
+* {
+  /* margin: 0; */
+}
+
+#header {
+  background: green;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+#body {
+  display: flex;
+  background: chartreuse;
+  margin: 10%;
+  width: 50%;
+  border-radius: 1rem;
+  /* position: inherit; */
+  /* box-sizing: border-box; */
+  /* border-style: dotted; */
+  /* border: darkblue; */
+}
+
+#footer {
+  background: yellow;
+  /* margin-top: 80%; */
+  padding: 10px;
+  border: indigo;
+  text-align: center;
+}
+
+.footer_content {
+  background: white;
+  text-align: left;
+}
+
+.header__content li {
+  display: flex;
+  float: left;
+  padding: 5px;
+}
